@@ -22,15 +22,15 @@ var chocolateBars = [
   "skittles"
 ]
 
-function addElementToBeginningofArray(array, element){
+function addElementToBeginningOfArray(array, element){
   return [element,...array]
 }
 
-function destructivelyAddElementToBeginningofArray(array, element){
+function destructivelyAddElementToBeginningOfArray(array, element){
   return array.unshift(element)
 }
 
-function addElementToEndofArray(array, element){
+function addElementToEndOfArray(array, element){
   return [...array, element]
 }
 
