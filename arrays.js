@@ -54,3 +54,7 @@ function removeElementFromEndOfArray(array){
   var newArray = array.slice(-1);
   return newArray;
 }
+
+function accessElementInArray(array, element){
+  return array[element];
+}
